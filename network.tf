@@ -1,4 +1,4 @@
-resource "aws_vpc" "zone12000_vpc" {
+resource "aws_vpc" "zone112000_vpc" {
   cidr_block = var.cidr_block_vpc
   tags = {
     Name = var.project_name
